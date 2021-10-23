@@ -5,7 +5,7 @@ The application is made using the ionic framework in cordova.
 It can be compiled to run on iOS ,Android or as a progressive web app.
 The application was made using ionic 5.
 
-Requirements
+# Requirements
 
 Node.js(npm)
 
