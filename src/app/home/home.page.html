@@ -1,0 +1,67 @@
+<ion-header >
+  <ion-toolbar>
+    <ion-title>
+        Workout  <ion-icon name="barbell-outline"></ion-icon> Routine
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-fab horizontal="end" vertical="bottom" slot="fixed">
+    <ion-fab-button color="danger">
+      <ion-icon name="close-outline" (click)="navigator.app.exitapp()"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+  <ion-card>
+    <img src="assets/push.jpg" />
+    <ion-card-header>
+      <ion-card-subtitle>Push</ion-card-subtitle>
+      <ion-card-title>Day 1</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>Focuses on compound movements that target the chest, shoulders & triceps.</p>
+      <br>
+      <ion-button expand="block" (click)="gotoPush()" >See More</ion-button>
+      
+    </ion-card-content>
+    
+  </ion-card>
+  <ion-card>
+    <img src="assets/pull.jpg" />
+    <ion-card-header>
+      <ion-card-subtitle>Pull</ion-card-subtitle>
+      <ion-card-title>Day 2</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>Focuses on compound movements that target the back and bisceps.</p>
+      <br>
+      <ion-button expand="block" (click)="gotoPull()">See More</ion-button>
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <img src="assets/legs.jpg" />
+    <ion-card-header>
+      <ion-card-subtitle>Legs</ion-card-subtitle>
+      <ion-card-title>Day 3</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+     <p> Focuses on compound movements that target the quads,hamstrings and calfs.</p>
+     <br>
+      <ion-button expand="block" (click)="gotoLegs()">See More</ion-button>
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <img src="assets/abs.jpg" />
+    <ion-card-header>
+      <ion-card-subtitle>Abs</ion-card-subtitle>
+      <ion-card-title>Day 4</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>Focuses on compound movements that target abs as well as some cardio.</p>
+      <br>
+      <ion-button expand="block" (click)="gotoAbs()">See More</ion-button>
+    </ion-card-content>
+  </ion-card>
+
+ 
+</ion-content>
