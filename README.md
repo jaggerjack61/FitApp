@@ -7,6 +7,8 @@ The application was made using ionic 5.
 
 Requirements
 
-Node.js(npm),
+Node.js(npm)
+
 Cordova
+
 Ionic 5
